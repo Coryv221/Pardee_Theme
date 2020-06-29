@@ -55,5 +55,17 @@ Contains usage of all included files in the package
 	useage with a dataset (COLT_data)
 	typical dependencies and imports when working with Pardee_Theme
 	will execute the test_packages.py
+----
+HOW TO INSTALL
+1. Download the package as a zip
+2. Unzip to any folder of your choice (This folder MUST ONLY CONTAIN FILES FROM THIS PACKAGE)
+3. Open any python command console, or the windows command console (if using windows command console, put "python3" before any commands
+4. run the following line of code in your command prompt:
+	pip install directory_to_folder_containing_package
+	Make sure to put the directory in quotes
+5. The following final line of code should be output:
+	"Successfully installed pardeevis-0.0.1"
+6. You now have the full visualization package for creating "Pardee Style" data visualizations!
+
 
 
