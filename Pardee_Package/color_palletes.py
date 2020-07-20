@@ -47,7 +47,7 @@ def color_blind_friendly_color_pallete():
     silver = "#ABABAB"
     dark_gray = "#595959"
     blue = "#5F9ED1"
-    dark_orange = "C85200"
+    dark_orange = "#C85200"
     gray = "#898989"
     light_blue = "#A2C8EC"
     light_orange = "#FFB579"
@@ -63,6 +63,57 @@ def color_blind_friendly_color_pallete():
                      light_orange,
                      light_gray]
     return color_pallete
+
+
+def high_contrast_color_blind_pallete():
+    deep_blue = "#192238"
+    orange = "#FF800E"
+    silver = "#ABABAB"
+    dark_gray = "#595959"
+    blue = "#5F9ED1"
+    dark_orange = "C85200"
+    gray = "#898989"
+    light_blue = "#A2C8EC"
+    light_orange = "#FFB579"
+    light_gray = "#CFCFCF"
+    color_pallete = [deep_blue,
+                     orange,
+                     silver,
+                     dark_gray,
+                     blue,
+                     dark_orange,
+                     gray,
+                     light_blue,
+                     light_orange,
+                     light_gray]
+    return color_pallete
+
+def high_contrast_color_pallete():
+    dark_cyan = "#520e05"
+    purple = "#E835E8"
+    yellow = "#dbd91d"
+    green = "#4cd411"
+    orange = "#fa8b2a"
+    aqua = "#08c5d1"
+    seablue = "#00353f"
+    gray = "#898989"
+    light_blue = "#A2C8EC"
+    light_orange = "#FFB579"
+    light_gray = "#CFCFCF"
+    color_pallete = [dark_cyan,
+                     purple,
+                     yellow,
+                     green,
+                     orange,
+                     aqua,
+                     seablue,
+                     gray,
+                     light_blue,
+                     light_orange,
+                     light_gray]
+    return color_pallete
+
+
 
 def grayscale_color_pallete():
     gainsboro = "#DCDCDC"
